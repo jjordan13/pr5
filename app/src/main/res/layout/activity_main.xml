@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button android:id="@+id/btn1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. ListView + ArrayAdapter" />
+        <Button android:id="@+id/btn2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. ListView + string-array" />
+        <Button android:id="@+id/btn3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. Выбор элемента ListView" />
+        <Button android:id="@+id/btn4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. Множественный выбор" />
+        <Button android:id="@+id/btn5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. Добавление/Удаление" />
+        <Button android:id="@+id/btn6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. Кастомный адаптер (State)" />
+        <Button android:id="@+id/btn7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. Оптимизация (ViewHolder)" />
+        <Button android:id="@+id/btn8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. Сложный список с кнопками" />
+        <Button android:id="@+id/btn9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="9. Spinner" />
+        <Button android:id="@+id/btn10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10. Spinner OnItemSelectedListener" />
+        <Button android:id="@+id/btn11" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="11. AutoCompleteTextView" />
+        <Button android:id="@+id/btn12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12. MultiAutoCompleteTextView" />
+        <Button android:id="@+id/btn13" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13. GridView" />
+        <Button android:id="@+id/btn14" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="14. RecyclerView" />
+        <Button android:id="@+id/btn15" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="15. RecyclerView Click" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Бразилия</item>
+        <item>Аргентина</item>
+        <item>Колумбия</item>
+        <item>Чили</item>
+        <item>Уругвай</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Самара</item>
+        <item>Вологда</item>
+        <item>Волгоград</item>
+        <item>Саратов</item>
+        <item>Воронеж</item>
+    </string-array>
+</resources>

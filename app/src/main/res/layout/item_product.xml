@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:gravity="center">
+    <TextView android:id="@+id/name" android:layout_width="0dp" android:layout_weight="2" android:layout_height="wrap_content" android:textSize="18sp"/>
+    <TextView android:id="@+id/count" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:textSize="18sp" android:gravity="center"/>
+    <Button android:id="@+id/add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+"/>
+    <Button android:id="@+id/rem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-"/>
+</LinearLayout>
